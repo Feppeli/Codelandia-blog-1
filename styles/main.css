@@ -1,0 +1,36 @@
+.noticeBox{
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data img{
+    height: 20px;
+    cursor: pointer;
+}
+
+.titleNotice{
+    color: #1A202C ;
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.titleNotice:hover{
+    color: black;
+}
+.data h5{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,28 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+
+
+h1,h3,h4,h5,h6{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #717171;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #1A202C;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e9e9e9;
+}
