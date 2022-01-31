@@ -4,85 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Link de CSS-->
     <link rel="stylesheet" href="styles/nav.css" type="text/css">
     <link rel="stylesheet" href="styles/global.css" type="text/css">
     <link rel="stylesheet" href="styles/main.css" type="text/css">
-    <title>Blog LipeCode</title>
+    <link rel="stylesheet" href="styles/twHeartBox.css" type="text/css">
+    <title>Codelandia</title>
 </head>
 <body>
 
-    <nav>
-        <div id="nav1">
-            <a class="nav1">Codelândia</a>  
-            <a class="nav1">blog</a>
-        </div>
-
-        <div id="nav2">
-            <div id="pesquisa">
-                <img src="img/—Pngtree—cartoon magnifying glass icon download_4595255.png">
-                <input id="searchTxt" type="text" placeholder="Pesquise">
+    <!--Parte superior do blog-->
+    <header>
+        <div class="container header-content">
+            <div class="top-header">
+            <h1>Codelândia</h1>
+            <h1>blog</h1>
             </div>
-        </div>
-    </nav>
+        <!-- Barra de Pesquisa-->
+        <div class="input-form">
+            <i class="fa fa-search icon"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Pesquisar no blog"
+            />
+          </div>
+    </header>
 
+    <!-- Parte onde as notícias ficam-->
     <main>
-        <div class="noticeBox">
-            <div  class="data">
-                <h5>30 de jan,2022</h5>
-                <img src="img/coracao.png">
+        <section class="container postagens">
+            <div class="post">
+              <div class="info-post">
+                <span class="date">02 de jul, 2021</span>
+                <span class="ico"><i class="fa fa-heart icon"></i></span>
+              </div>
+              <h3>Agora é oficial: o Windows 11 está vindo</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+                vel diam fringilla, eu ullamcorper ex iaculis.
+              </p>
             </div>
-            <a class="titleNotice" href="">Agora é Oficial: o Windows 11 está vindo</a>
-            <h5>
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting, remaining essentially.
-            </h5>
-        </div>
-
-        <div class="noticeBox">
-            <div  class="data">
-                <h5>30 de jan,2022</h5>
-                <img src="img/coracao.png">
+    
+            <div class="post">
+              <div class="info-post">
+                <span class="date">02 de jul, 2021</span>
+                <span class="ico"><i class="fa fa-heart icon"></i></span>
+              </div>
+              <h3>Tim Berners-Lee vai leiloar código-fonte da web</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+                vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
+                justo. Vestibulum nisl orci, lacinia venenatis leo sit amet,
+                pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+                interdum ullamcorper libero.
+              </p>
             </div>
-            <a class="titleNotice" href="">Tem Firefox novo no pedaço e você vai querer migrar</a>
-            <h5>
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-               
-                also the leap into electronic typesetting, remaining essentially.
-            </h5>
-        </div>
-
-        <div class="noticeBox">
-            <div  class="data">
-                <h5>30 de jan,2022</h5>
-                <img src="img/coracao.png">
+    
+            <div class="post">
+              <div class="info-post">
+                <span class="date">02 de jul, 2021</span>
+                <span class="ico"><i class="fa fa-heart icon"></i></span>
+              </div>
+              <h3>Tem Firefox novo no pedaço e você vai querer migrar</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                vestibulum auctor est.
+              </p>
             </div>
-            <a class="titleNotice" href="">Tim Berners-Lee vai leiloar código-fonte da web</a>
-            <h5>
-                typesetting industry. Lorem Ipsum has been the industry's
-                
-            </h5>
-        </div>
-
-        <div class="noticeBox">
-            <div  class="data">
-                <h5>30 de jan,2022</h5>
-                <img src="img/coracao.png">
+    
+            <div class="post">
+              <div class="info-post">
+                <span class="date">02 de jul, 2021</span>
+                <span class="ico"><i class="fa fa-heart icon"></i></span>
+              </div>
+              <h3>John McAfee, criador do antivírus McAfee, morre</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+                vestibulum auctor est. Nam vitae finibus ante. Duis lobortis tellus
+                vel diam fringilla, eu ullamcorper ex iaculis. Praesent et auctor
+                justo. Vestibulum nisl orci, lacinia venenatis leo sit amet,
+                pulvinar tincidunt risus. Phasellus nisl dui, cursus a lectus et,
+                interdum ullamcorper libero.
+              </p>
             </div>
-            <a class="titleNotice" href="">John McAfee, criador do antivírus McAfe, morre</a>
-            <h5>
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting, remaining essentially.<br><br>
-                specimen book. It has survived not only five centuries, but
-                also the leap into electronic typesetting, remaining essentially.
-            </h5>
-        </div>
+          </section>
     </main>
 </body>
 </html>
